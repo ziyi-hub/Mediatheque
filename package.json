@@ -1,0 +1,22 @@
+{
+  "name": "mediatek",
+  "version": "0.0.0",
+  "description": "A simple Mediatek",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Ziyi Wang",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "serve": "^11.2.0"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
